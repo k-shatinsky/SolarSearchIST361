@@ -1,0 +1,112 @@
+html {
+  background-color: #eee8d5; }
+
+.light h2 {
+  color: #073642 !important; }
+.light .mdl-card__supporting-text {
+  color: #839496 !important; }
+.light .mdl-layout-title {
+  color: #fdf6e3 !important; }
+.light .mdl-card {
+  background: #fdf6e3 !important; }
+  .light .mdl-card .im-sorry {
+    min-height: 500px !important; }
+.light .toggle i {
+  color: #fdf6e3; }
+.light .search .mdl-button--primary.mdl-button--primary {
+  color: #cb4b16 !important; }
+.light .search .mdl-button:focus:not(:active),
+.light .search .mdl-button:hover {
+  background-color: #eee8d5 !important; }
+.light .mdl-layout__header {
+  background-color: #cb4b16 !important; }
+.light .mdl-textfield__input {
+  border-color: #839496 !important; }
+.light a {
+  color: #cb4b16; }
+
+.dark h2 {
+  color: #6c71c4 !important; }
+.dark .mdl-card__supporting-text {
+  color: #93a1a1 !important; }
+.dark .mdl-layout-title {
+  color: #6c71c4 !important; }
+.dark .mdl-card {
+  background: #073642 !important; }
+.dark .toggle i {
+  color: #6c71c4; }
+.dark .search .mdl-button--primary.mdl-button--primary {
+  color: #6c71c4 !important; }
+.dark .search .mdl-button:focus:not(:active),
+.dark .search .mdl-button:hover {
+  background-color: #002b36 !important; }
+.dark .mdl-layout__header {
+  background-color: #073642 !important; }
+.dark .mdl-textfield__input {
+  border-color: #93a1a1 !important; }
+.dark a {
+  color: #6c71c4; }
+
+.mdl-layout__content {
+  display: flex !important;
+  flex-direction: column !important; }
+
+.mdl-card {
+  margin: 50px auto !important;
+  max-width: 960px !important;
+  width: 100% !important; }
+  @media screen and (max-width: 1060px) {
+    .mdl-card {
+      margin: 50px 50px 0 50px !important;
+      max-width: unset !important;
+      width: unset !important; } }
+  @media screen and (max-width: 599px) {
+    .mdl-card {
+      margin: 10px !important; } }
+
+.mdl-layout-title {
+  display: flex !important;
+  margin: auto !important; }
+  .mdl-layout-title span {
+    margin: auto;
+    padding-left: 7px; }
+
+.mdl-card__actions {
+  display: flex;
+  justify-content: flex-end; }
+
+.search {
+  display: flex; }
+  .search i {
+    margin: auto 0 !important;
+    padding-right: 7px;
+    padding-bottom: 12px; }
+  @media screen and (max-width: 1060px) {
+    .search .mdl-card {
+      max-width: 960px !important;
+      width: 100% !important; } }
+
+.mdl-layout__header-row {
+  margin: 0 !important;
+  padding: 0 15px !important; }
+
+.im-sorry {
+  display: flex !important;
+  flex-direction: column !important;
+  flex-wrap: nowrap !important; }
+  .im-sorry .mdl-card__supporting-text {
+    overflow: scroll !important; }
+  .im-sorry p {
+    display: none;
+    padding-bottom: 25px; }
+
+form {
+  width: 90%; }
+
+.info {
+  padding-bottom: 50px; }
+  @media screen and (max-width: 599px) {
+    .info {
+      padding-bottom: 10px; } }
+
+/*# sourceMappingURL=solarsearch.css.map */

@@ -1,0 +1,13 @@
+Contents:
+
+
+-solarsearch.html: The HTML markup for SolarSearch. This markup also includes links to externally hosted jQuery and CSS/Javascript associated with Material Design Lite.
+
+-solarsearch.scss: The Sass style sheet for SolarSearch. The files solarsearch.css.map and solarsearch.css are created when solarsearch.scss is compiled
+
+.
+-solarsearch.js: The JavaScript/jQuery logic that controls the search results and light/dark toggle effects.
+-logic
+
+-train-v2.0.txt: The corpus text
+.
